@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coraluxe — Where the Ocean Meets Quiet Luxury</title>
+  <meta name="description" content="Coraluxe Resort — a luxury coral resort in Baa Atoll, Maldives. Private villas above turquoise waters, coral reefs, and quiet luxury.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪸</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav nav--transparent" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">Coral<span>uxe</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link nav__link--active">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="rooms.html" class="nav__link">Rooms</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="contact.html" class="nav__cta">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero__slides">
+      <div class="hero__slide active">
+        <img src="assets/img/carousel-1.jpg" alt="Overwater villas at sunset">
+      </div>
+      <div class="hero__slide">
+        <img src="assets/img/carousel-2.jpg" alt="Turquoise lagoon view">
+      </div>
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <h1 class="hero__title">Where the ocean meets <em>quiet luxury</em></h1>
+      <p class="hero__subtitle">Private villas above turquoise waters in Baa Atoll, Maldives</p>
+    </div>
+    <div class="hero__controls">
+      <button class="hero__control hero__control--prev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="hero__control hero__control--next" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="hero__booking">
+      <div class="hero__booking-inner">
+        <div class="booking-field">
+          <span class="booking-field__label">Check In</span>
+          <input type="date" aria-label="Check in date">
+        </div>
+        <div class="booking-field">
+          <span class="booking-field__label">Check Out</span>
+          <input type="date" aria-label="Check out date">
+        </div>
+        <div class="booking-field">
+          <span class="booking-field__label">Guests</span>
+          <select aria-label="Number of guests">
+            <option>2 Adults</option>
+            <option>1 Adult</option>
+            <option>3 Adults</option>
+            <option>2 Adults, 1 Child</option>
+          </select>
+        </div>
+        <button class="booking-btn" type="button">Check Availability</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ROOMS SHOWCASE ===== -->
+  <section class="section section--lg" aria-label="Our Rooms">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Our Rooms</span>
+        <h2 class="section-title">Private Villas With Ocean Views</h2>
+        <p class="section-subtitle">Each villa is a sanctuary of calm, designed to frame the endless horizon of the Indian Ocean.</p>
+      </div>
+    </div>
+    <div class="rooms-scroll">
+      <div class="rooms-scroll__track" style="cursor: grab;">
+        <!-- Room 1 -->
+        <article class="room-card fade-up fade-up-delay-1">
+          <div class="room-card__img">
+            <img src="assets/img/room-1.jpg" alt="Honeymoon Villa overwater">
+            <span class="room-card__badge">Most Popular</span>
+          </div>
+          <div class="room-card__body">
+            <span class="room-card__price">$680 <small>/ night</small></span>
+            <h3 class="room-card__name">Honeymoon Overwater Villa</h3>
+            <p class="room-card__desc">Perched above the crystal lagoon with a glass floor panel, private sun deck, and direct ocean access.</p>
+            <div class="room-card__amenities">
+              <span class="room-card__amenity"><i class="fa-solid fa-bed"></i> King Bed</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-water"></i> Ocean View</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-wifi"></i> Wi-Fi</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-wind"></i> A/C</span>
+            </div>
+            <a href="rooms.html" class="room-card__cta">View Details</a>
+          </div>
+        </article>
+        <!-- Room 2 -->
+        <article class="room-card fade-up fade-up-delay-2">
+          <div class="room-card__img">
+            <img src="assets/img/room-2.jpg" alt="Deluxe Beach Suite">
+          </div>
+          <div class="room-card__body">
+            <span class="room-card__price">$520 <small>/ night</small></span>
+            <h3 class="room-card__name">Deluxe Beach Suite</h3>
+            <p class="room-card__desc">Steps from the white sand shore with a private garden, outdoor rain shower, and veranda facing the reef.</p>
+            <div class="room-card__amenities">
+              <span class="room-card__amenity"><i class="fa-solid fa-bed"></i> Queen Bed</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-umbrella-beach"></i> Beach</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-wifi"></i> Wi-Fi</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-wind"></i> A/C</span>
+            </div>
+            <a href="rooms.html" class="room-card__cta">View Details</a>
+          </div>
+        </article>
+        <!-- Room 3 -->
+        <article class="room-card fade-up fade-up-delay-3">
+          <div class="room-card__img">
+            <img src="assets/img/room-3.jpg" alt="Sea View Residence">
+            <span class="room-card__badge">New</span>
+          </div>
+          <div class="room-card__body">
+            <span class="room-card__price">$890 <small>/ night</small></span>
+            <h3 class="room-card__name">Sea View Residence</h3>
+            <p class="room-card__desc">A two-storey residence with infinity plunge pool, butler service, and panoramic reef views from the rooftop terrace.</p>
+            <div class="room-card__amenities">
+              <span class="room-card__amenity"><i class="fa-solid fa-bed"></i> King Bed</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-water"></i> Reef View</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-person-swimming"></i> Pool</span>
+              <span class="room-card__amenity"><i class="fa-solid fa-concierge-bell"></i> Butler</span>
+            </div>
+            <a href="rooms.html" class="room-card__cta">View Details</a>
+          </div>
+        </article>
+      </div>
+      <div class="container" style="display:flex;justify-content:center;gap:0.75rem;margin-top:1.5rem;">
+        <button class="hero__control rooms-scroll__prev" aria-label="Scroll rooms left"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="hero__control rooms-scroll__next" aria-label="Scroll rooms right"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SPLIT ===== -->
+  <section class="section bg-sand" aria-label="About Coraluxe">
+    <div class="container">
+      <div class="about-split">
+        <div class="about-split__images fade-up">
+          <div class="about-split__main">
+            <img src="assets/img/about.jpg" alt="Resort overwater villas aerial view">
+          </div>
+          <div class="about-split__accent">
+            <img src="assets/img/signature.jpg" alt="Resort manager signature">
+          </div>
+        </div>
+        <div class="about-split__content fade-up fade-up-delay-2">
+          <span class="section-label">Welcome to Coraluxe</span>
+          <h2>Baa Atoll, Maldives</h2>
+          <p>One of the most beautiful coral atolls in the world, Baa Atoll is a UNESCO Biosphere Reserve teeming with manta rays, vibrant coral gardens, and waters so clear they seem to glow.</p>
+          <p>Coraluxe was conceived as a sanctuary where architecture dissolves into nature. Every villa, every pathway, every meal is designed to honour the ocean that surrounds us.</p>
+          <blockquote>
+            &ldquo;True luxury is not about excess. It is the art of being present &mdash; of listening to the tide, watching the light change, and remembering what matters.&rdquo;
+          </blockquote>
+          <div class="about-stats">
+            <div>
+              <div class="about-stat__number">42</div>
+              <div class="about-stat__label">Ocean Villas</div>
+            </div>
+            <div>
+              <div class="about-stat__number">12+</div>
+              <div class="about-stat__label">Years of Excellence</div>
+            </div>
+            <div>
+              <div class="about-stat__number">98%</div>
+              <div class="about-stat__label">Guest Satisfaction</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="section" aria-label="Gallery">
+    <div class="container">
+      <div class="section-header section-header--center fade-up">
+        <span class="section-label">Gallery</span>
+        <h2 class="section-title">Glimpses of Paradise</h2>
+        <p class="section-subtitle">Every corner of Coraluxe tells a story of beauty, craft, and reverence for the sea.</p>
+      </div>
+      <div class="gallery-grid fade-up">
+        <div class="gallery-grid__item">
+          <img src="assets/img/gallery-sm-1.jpg" alt="Overwater villa at golden hour">
+          <span>Golden Hour</span>
+        </div>
+        <div class="gallery-grid__item">
+          <img src="assets/img/gallery-sm-2.jpg" alt="Coral reef snorkeling">
+          <span>Coral Reef</span>
+        </div>
+        <div class="gallery-grid__item">
+          <img src="assets/img/gallery-sm-3.jpg" alt="Infinity pool sunset">
+          <span>Infinity Pool</span>
+        </div>
+        <div class="gallery-grid__item">
+          <img src="assets/img/gallery-sm-4.jpg" alt="Beach dining setup">
+          <span>Beach Dining</span>
+        </div>
+        <div class="gallery-grid__item">
+          <img src="assets/img/gallery-sm-5.jpg" alt="Spa treatment room">
+          <span>Serenity Spa</span>
+        </div>
+        <div class="gallery-grid__item">
+          <img src="assets/img/gallery-sm-6.jpg" alt="Night sky from the jetty">
+          <span>Starry Nights</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section section--ocean section--lg" aria-label="Guest Testimonials">
+    <div class="container">
+      <div class="section-header section-header--center fade-up">
+        <span class="section-label">Guest Experiences</span>
+        <h2 class="section-title">Words That Warm Our Hearts</h2>
+        <p class="section-subtitle">From guests who found something unexpected here.</p>
+      </div>
+      <div class="testimonials-grid fade-up">
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">&ldquo;We came for our anniversary and left feeling like we had discovered a secret world. The villa, the staff, the reef &mdash; everything was perfection.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">E & M</div>
+            <div>
+              <div class="testimonial-card__name">Elena & Marcus</div>
+              <div class="testimonial-card__location">London, United Kingdom</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">&ldquo;I have stayed at luxury resorts around the world. Coraluxe is different. It feels intimate, personal, and genuinely connected to the ocean.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">A</div>
+            <div>
+              <div class="testimonial-card__name">Akiko Tanaka</div>
+              <div class="testimonial-card__location">Tokyo, Japan</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="testimonial-card__text">&ldquo;The snorkeling was otherworldly. We swam with mantas right off our villa deck. My daughter says it was the best day of her life.&rdquo;</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">S & J</div>
+            <div>
+              <div class="testimonial-card__name">Sophie & James</div>
+              <div class="testimonial-card__location">Sydney, Australia</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section class="section" aria-label="Blog">
+    <div class="container">
+      <div class="section-header section-header--center fade-up">
+        <span class="section-label">Journal</span>
+        <h2 class="section-title">Discover Hidden Island Beauty</h2>
+        <p class="section-subtitle">Stories, guides, and reflections from life at the edge of the ocean.</p>
+      </div>
+      <div class="blog-grid fade-up">
+        <article class="blog-card">
+          <div class="blog-card__img">
+            <img src="assets/img/blog-1.jpg" alt="Maldives snorkeling guide">
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__date">15 March 2026</span>
+            <h3 class="blog-card__title"><a href="#">A Guide to Snorkeling Baa Atoll's Coral Gardens</a></h3>
+            <p class="blog-card__excerpt">From manta ray hotspots to hidden channels, here is everything you need to know for an unforgettable underwater experience.</p>
+            <a href="#" class="blog-card__link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-card__img">
+            <img src="assets/img/blog-2.jpg" alt="Sustainable luxury travel">
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__date">28 February 2026</span>
+            <h3 class="blog-card__title"><a href="#">Sustainable Luxury: How Coraluxe Protects the Reef</a></h3>
+            <p class="blog-card__excerpt">Our commitment to marine conservation goes beyond words. Learn about our coral restoration programme and reef-safe practices.</p>
+            <a href="#" class="blog-card__link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-card__img">
+            <img src="assets/img/blog-3.jpg" alt="Maldivian cuisine">
+          </div>
+          <div class="blog-card__body">
+            <span class="blog-card__date">10 January 2026</span>
+            <h3 class="blog-card__title"><a href="#">Five Things to Do in Baa Atoll Beyond the Beach</a></h3>
+            <p class="blog-card__excerpt">Dolphin cruises, local island visits, and night fishing &mdash; the experiences that make a Maldives trip truly unforgettable.</p>
+            <a href="#" class="blog-card__link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" aria-label="Call to action">
+    <div class="cta-banner__bg">
+      <img src="assets/img/feature.jpg" alt="Resort aerial view">
+    </div>
+    <div class="cta-banner__overlay"></div>
+    <div class="cta-banner__content fade-up">
+      <h2 class="cta-banner__title">Begin Your Coraluxe Story</h2>
+      <p class="cta-banner__text">Let us craft a stay that feels entirely yours &mdash; from the villa you choose to the moments you will never forget.</p>
+      <a href="contact.html" class="cta-banner__btn">Reserve Your Stay</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">Coral<span>uxe</span></div>
+          <p class="footer__desc">A luxury coral resort in Baa Atoll, Maldives. Where the ocean meets quiet luxury, and every moment is designed to be remembered.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About Coraluxe</a></li>
+            <li><a href="rooms.html">Rooms & Villas</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Spa & Wellness</a></li>
+            <li><a href="#">Experiences</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Practical</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Getting Here</a></li>
+            <li><a href="#">Travel Insurance</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Newsletter</h4>
+          <p class="footer__desc">Island stories, exclusive offers, and underwater discoveries delivered to your inbox.</p>
+          <div class="footer__newsletter-input">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+            <button type="button" aria-label="Subscribe to newsletter"><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Coraluxe Resort. All rights reserved.</span>
+        <span>Baa Atoll, Maldives &middot; <a href="contact.html">+960 700 1234</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
