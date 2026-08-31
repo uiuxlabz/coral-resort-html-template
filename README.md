@@ -4,6 +4,10 @@
 
 ---
 
+## 📸 Screenshot
+
+![Homepage Preview](screenshot.png)
+
 ## Live Pages
 
 | Page | Description |
